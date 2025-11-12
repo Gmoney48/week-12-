@@ -49,8 +49,7 @@ if score >= 60:
     print("you passed the test")
 else: 
     print("you didn't pass")
-#Ask for a password
-password = input("What is your password?")
+
 score = int(input("What is your score"))
 if score >= 90:
     print("You got an A")
@@ -62,3 +61,11 @@ elif score >= 60 and score <= 69:
     print("You got a D")
 else:
     print("You failed")
+
+#Ask for a password
+password = input("What is your password?")
+if len(password) >= 8 and (char.isdigit() for char in password):
+    print("Password is valid")
+else:
+    print("Password is invalid.")
+        # It must be at east 8 characters long and contain at least one digit. 
