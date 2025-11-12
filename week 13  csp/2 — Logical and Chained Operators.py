@@ -22,10 +22,15 @@ print(1 < x < 20)         # True
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
-
+score = int(input("What is your score"))
+if score >= 50 and score <=100:
+    print("The number is between 50 and 100")
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+score = int(input("What is your number"))
+if score >= 0 and score < 10:
+    print("The number is not equal to 0 and more than 10.")
 # Use chained comparison to check if 3 < 4 < 5.
-
+print("3 < 4 < 5")
 # Challenge: Create a password rule using logical operators:
-
+password = input("What is your password?")
+if len(password) >= 5 and (char.isdigit() for char in password):
