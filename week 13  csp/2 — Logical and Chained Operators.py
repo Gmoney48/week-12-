@@ -33,4 +33,4 @@ if score >= 0 and score < 10:
 print("3 < 4 < 5")
 # Challenge: Create a password rule using logical operators:
 password = input("What is your password?")
-if len(password) >= 5 and (char.isdigit() for char in password):
+# if len(password) >= 5 and (char.isdigit() for char in password)
