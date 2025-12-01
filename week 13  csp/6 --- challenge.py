@@ -40,8 +40,8 @@ You work for a school store that pays sales staff a ##commission## on monthly sa
 
 
 
-* Accept the three product sales in **one line** (comma-separated), then **split → map to float → list**.
-* Add input validation: if a user types a negative number or text for sales, print `"Invalid input"`.
-* Add a message for **top performers**: if sales `>= 20000 or commission >= 3000` → `"Top Performer!"`.
+# * Accept the three product sales in **one line** (comma-separated), then **split → map to float → list**.
+# * Add input validation: if a user types a negative number or text for sales, print `"Invalid input"`.
+# * Add a message for **top performers**: if sales `>= 20000 or commission >= 3000` → `"Top Performer!"`.
 
 

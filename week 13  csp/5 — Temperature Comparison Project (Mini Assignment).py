@@ -5,7 +5,15 @@
 # Write a program that:
 
 # Asks the user for today’s temperature.
-
+temperature = int(input("Enter today's temperature: "))
+if temperature < -10 or temperature > 110:
+    print ("Extreme tempature warning!")
+elif temperature < 40:
+    print("It's cold")
+elif temperature < 70:
+    print("It's warm")
+else:
+    print("It's hot")
 # Prints whether it’s cold, warm, or hot using comparison operators.
 
 # If the temperature is out of range (below -10 or above 110), display “Extreme temperature warning!”
